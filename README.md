@@ -3,4 +3,4 @@
 </div>
 
 # cabznews-hlcms
-the headless cms for cabznews, the late that is a week late.
+the headless cms for cabznews, the news from last week delivered to you today
