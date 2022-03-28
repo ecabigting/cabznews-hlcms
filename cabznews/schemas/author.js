@@ -17,6 +17,7 @@ export default {
         {
             title:'Avatar',
             name:'avatar',
+            type:'image',
             validation: Rule => Rule.required().error('Required')
         }
     ]

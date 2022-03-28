@@ -13,7 +13,7 @@ export default {
             ]
         },
         {
-            tite:'Author',
+            title:'Author',
             name:'author',
             type:'reference',
             to: [{type:'author'}],
