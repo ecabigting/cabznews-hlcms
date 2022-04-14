@@ -9,7 +9,7 @@ export default {
             type:'string',
             validation: Rule => [
                 Rule.required().min(10).error('Title must be atleast 10 characters long'),
-                Rule.required().max(50).error('Title must be not more than 50 characters')
+                //Rule.max(50).error('Title must be not more than 50 characters')
             ]
         },
         {
@@ -17,25 +17,25 @@ export default {
             name:'author',
             type:'reference',
             to: [{type:'author'}],
-            validation: Rule => Rule.max(120).error('Required')
+            //validation: Rule => Rule.max(120).error('Required')
         },
         {
             title:'Excerpt',
             name:'excerpt',
             type:'text',
-            validation: Rule => Rule.max(120).error('Must be less than 120 characters long')
+            //validation: Rule => Rule.max(120).error('Must be less than 120 characters long')
         },
         {
             title:'Content',
             name:'content',
             type:'text',
-            validation: Rule => Rule.max(120).error('Required')
+            //validation: Rule => Rule.max(120).error('Required')
         },
         {
             title:'Image',
             name:'image',
             type:'image',
-            validation: Rule => Rule.max(120).error('Required')
+            //validation: Rule => Rule.max(120).error('Required')
         }
     ]
 }
